@@ -198,6 +198,7 @@ header{
     background: rgba(0,0,0,0.5);
     z-index: 7;
     display: none;
+    
 }
 
 
@@ -269,6 +270,8 @@ header{
 
 /* Responsive Design - adaptable a dispositivos moviles*/
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 @media screen and (max-width: 1220px){
 
     .header-content,
@@ -289,7 +292,10 @@ header{
     }
 
     .text{
-        font-size: 14px;
+        padding: 30px;
+        font-size: 18px;
+        font-weight: 100;
+        font-family: 'Anton', sans-serif;
     }
 
 }
